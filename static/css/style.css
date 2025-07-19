@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #c23737, #f9f7f7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card {
+    background-color: #7be39f;
+    border-radius: 16px;
+}
+
+.btn {
+    border-radius: 12px;
+}

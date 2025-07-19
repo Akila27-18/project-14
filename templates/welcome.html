@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+    <div class="p-5 bg-white rounded shadow animate__animated animate__fadeInDown">
+        <h1 class="text-success">Welcome, {{ username }} 👋</h1>
+        <p class="lead">You have successfully logged in.</p>
+        <a href="{{ url_for('home') }}" class="btn btn-outline-primary mt-3">Back to Home</a>
+    </div>
+{% endblock %}
